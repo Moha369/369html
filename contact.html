@@ -67,11 +67,28 @@
 
 <!--Body Section-->
 
-<section class="contact-title">
+<div class="contact-title">
     <h1 class="head-first">Hello</h1>
     <h2 class="head-second">Write for us your problem ... and we will answer soon ;)</h2>
 
 
-</section>
+</div>
+<div class="contact-form">
+ <form id="contact-form" method="post" action="contact-form-handler.php">
+ <input type="text" name="Name" class="form-control" placeholder="Your Name" required>
+ <br>
+
+ <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+ <br>
+
+ <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+ <br>
+ <input type="submit" class="form-control submit" value="Send Message">
+
+
+ </form> 
+
+
+</div>
 </body>
 </html>
